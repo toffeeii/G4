@@ -16,7 +16,7 @@ import "./App.css";
 import Coursedetail from './components/Coursedetail';
 import Course from './components/Course';
 import "bootstrap/dist/css/bootstrap.min.css";
-import CourseView from './components/Courseview';
+import CourseView from './components/CourseView';
 function App() {
   return (
     <div>
