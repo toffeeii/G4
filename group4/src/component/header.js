@@ -33,9 +33,9 @@ function Header() {
         transition: 'opacity 0.5s ease-out',
       }}
     >
-      <Link to="/about" className="nav-link" onClick={handleClick} style={{ margin: '0 auto', color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-        <img src= {Logo} alt="" style={{ width: '40px', height: '40px', marginRight: '5px' }} />
-        <span style={{ fontWeight: 'bold' }}>G4 Applicitation</span>
+     <Link to="/about" className="nav-link" onClick={handleClick} style={{ margin: '0 auto', color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+        <img src= {Logo} alt="" style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '5px' }} />
+        <span style={{ fontWeight: 'bold' }}>Applicitation</span>
       </Link>
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginLeft: 'auto', marginRight: 'auto' }}>
         <Link to="/courses" className="nav-link" onClick={handleClick}>Courses</Link>
