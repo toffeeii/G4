@@ -17,7 +17,7 @@
   }
   
   .header {
-    background-color: indigo;
+    background-color: #390642;
     border-radius: 0px;
     padding: 20px;
     height: 90px;
@@ -60,7 +60,7 @@
   
   .btn-login,
   .btn-signup {
-    background-color: lightgray;
+    background-color: rgb(185, 9, 9);
     border-radius: 20px;
     padding: 5px 25px;
     border: none;

@@ -14,7 +14,11 @@
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
+=======
+    "react-scripts": "5.0.1",
+>>>>>>> 044c26cdb3244ec347554b4bad6e6f74f42fdd5c
     "rsuite": "^5.33.0",
     "styled-components": "^5.3.10",
     "web-vitals": "^2.1.4"
