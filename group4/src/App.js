@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import React from 'react';
 import Footer from './component/footer';
@@ -19,14 +20,30 @@ import Logo from './component/logo.jpg';
 =======
 import Logo from './image/logo.jpg';
 >>>>>>> e47d734 (changes in logo)
+=======
+import React from "react";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import { Routes, Route } from "react-router-dom";
+import Certifications from "./components/certifications";
 
-import './App.css';
-import {Routes, Route} from 'react-router-dom';
+import Roadmaps from "./components/roadmaps";
+import Videos from "./components/videos";
+import Login from "./components/login";
+import Signup from "./components/signup";
+import Home from "./components/home";
+import About from "./components/about";
+import Logo from "./image/logo.jpg";
+import "./App.css";
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
+
 import Coursedetail from './components/Coursedetail';
 import Course from './components/Course';
-import CourseView from './components/CourseView.Js';
-function App() {  
+import "bootstrap/dist/css/bootstrap.min.css";
+import CourseView from './components/Courseview';
+function App() {
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div className="App">
     <Routes>
@@ -98,6 +115,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CourseView from './components/Courseview';
 function App() {
   return (
+=======
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
     <div>
       <Header />
       <Routes>

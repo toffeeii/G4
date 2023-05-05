@@ -5,16 +5,28 @@ import Logo from '../image/logo.jpg'
 //import {  useLocation } from 'react-router-dom';
 
 function Header() {
+<<<<<<< HEAD
   const [isHidden] = useState(false);
   //const location = useLocation();
 
   const handleClick = () => {
     // setIsHidden(true);
+=======
+  const [isHidden, setIsHidden] = useState(false);
+  //const location = useLocation();
+
+  const handleClick = () => {
+    setIsHidden(true);
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
   };
 
   useEffect(() => {
     const handlePopstate = () => {
+<<<<<<< HEAD
       // setIsHidden(true);
+=======
+      setIsHidden(false);
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
     };
     window.addEventListener('popstate', handlePopstate);
     return () => window.removeEventListener('popstate', handlePopstate);
@@ -41,8 +53,13 @@ function Header() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginLeft: 'auto', marginRight: 'auto' }}>
         <Link to="/" className="nav-link" onClick={handleClick}>Home</Link>
         <Link to="/course" className="nav-link" onClick={handleClick}>Courses</Link>
+<<<<<<< HEAD
         <Link to="/certifications" className="nav-link" onClick={handleClick}>Guides</Link>
          {/*<Link to="/roadmaps" className="nav-link" onClick={handleClick}>Roadmaps</Link>  */}
+=======
+        <Link to="/certifications" className="nav-link" onClick={handleClick}>Certifications</Link>
+        {/* <Link to="/roadmaps" className="nav-link" onClick={handleClick}>Roadmaps</Link> */}
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
         <Link to="/videos" className="nav-link" onClick={handleClick}>Videos</Link>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginLeft: 'auto', marginRight: 'auto' }}>

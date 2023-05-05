@@ -1,5 +1,6 @@
 import React from 'react';
 import './page.css';
+<<<<<<< HEAD
 import './certification.css';
 // import traillogo from "../image/trailheadlogo.png";
 
@@ -62,6 +63,13 @@ const containerStyle = {
 
 function Certifications() {
  
+=======
+
+function Certifications() {
+  const handleBack = () => {
+    window.history.back();
+  };
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
 
   return (
     <div className="courses-container"
@@ -70,6 +78,7 @@ function Certifications() {
         color: 'white'
     }}
     >
+<<<<<<< HEAD
     
       <h1 className='text-center mt-5'>GUIDES</h1>
       <div  style={containerStyle2}>
@@ -138,6 +147,12 @@ function Certifications() {
    </div>
      
   
+=======
+      <button className="back-button" onClick={handleBack}>{"<"}</button>
+      <h1>Certifications</h1>
+      <p>content goes here</p>
+    </div>
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
   );
 };
 

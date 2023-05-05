@@ -60,7 +60,11 @@
   
   .btn-login,
   .btn-signup {
+<<<<<<< HEAD
     background-color: rgb(185, 9, 9);
+=======
+    background-color: lightgray;
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
     border-radius: 20px;
     padding: 5px 25px;
     border: none;

@@ -15,7 +15,11 @@
                 <h3 className="p">HTML describes the structure of a Web page</h3>
               
               <div className="text-center ">
+<<<<<<< HEAD
               <h1 className="text-center  text-white"><b>HTML Document</b></h1></div>
+=======
+              <h1 className="text-center btn-lg p-3 btn btn-info text-white"><b>HTML Document</b></h1></div>
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
               
               <h3 className="p">
                 {`All HTML documents must start with a document type declaration:
@@ -78,6 +82,7 @@ The HTML document itself begins with <html> and ends with </html>..`
                 </a>
               </h1>
             </div>
+<<<<<<< HEAD
           </div>     \
 
            <h6
@@ -121,3 +126,6 @@ function CodeSnippet({ code }) {
   );
   
 }
+=======
+          </div>     
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0

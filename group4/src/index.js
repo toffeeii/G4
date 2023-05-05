@@ -8,18 +8,24 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"></link>
 =======
 
 >>>>>>> b78665b (Done with header and footer navigation)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 =======
+=======
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
 ></link>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
+<<<<<<< HEAD
 >>>>>>> 6574603 (Updated the viewchanges)
+=======
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
 root.render(
   <React.StrictMode>
     <Router>

@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./home.css";
+<<<<<<< HEAD
 
 function Home() {
   const [height, setHeight] = useState(window.innerHeight);
  
+=======
+function Home() {
+  const [height, setHeight] = useState(window.innerHeight);
+
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
   useEffect(() => {
     function handleResize() {
       setHeight(window.innerHeight);
@@ -23,10 +29,16 @@ function Home() {
         backgroundColor: "black",
         color: "white",
       }}
+<<<<<<< HEAD
       className=""
     >
     
 <div id="carouselExampleInterval" class="container carousel slide" data-bs-ride="carousel">
+=======
+      className="container"
+    >
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
       <img src="https://sellcoursesonline.com/wp-content/uploads/2022/05/types-of-online-courses.png" className="d-block w-100" alt="..."/>
@@ -56,11 +68,19 @@ function Home() {
                     </div>
                     
                   </div>{" "}
+<<<<<<< HEAD
                   <h2 className=" mt-3">
                 <a href="/course" className=" text-white">
                   Not Sure Where To Begin? <button className="btn btn-sm btn-danger">Click ME</button>
                 </a>
               </h2>
+=======
+                  <h1 className=" mt-5">
+                <a href="/course" className=" text-white">
+                  Not Sure Where To Begin?
+                </a>
+              </h1>
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
                 </div>{" "}
               </div>
              

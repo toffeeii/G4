@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-color:rgb(15, 0, 0);
+=======
+    background-color:black;
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
       
     }
     .learntocodeh1 {
@@ -7,7 +11,11 @@ body{
         font-weight: 700;
         height: 690px;
       padding-left: 50px;
+<<<<<<< HEAD
         background-image: url("../image/carousel.png");
+=======
+        background-image: url("https://www.shutterstock.com/image-photo/education-distance-elearning-online-learning-260nw-2209948315.jpg");
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
         background-repeat: no-repeat;
         background-size: cover;
     }

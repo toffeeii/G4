@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 // import "./page.css";
 import "./login.css"
@@ -88,7 +89,55 @@ function Login() {
     </div>
   );
 }
+=======
+import React from 'react';
+import './page.css';
+
+function Login() {
+  const handleBack = () => {
+    window.history.back();
+  };
+
+  return (
+    <div className="courses-container"
+    style={{
+        backgroundColor: 'black',
+        color: 'white'
+    }}
+    >
+      <button className="back-button" onClick={handleBack}>{"<"}</button>
+      <h1>Login</h1>
+      <p>content goes here</p>
+    </div>
+  );
+};
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
 
 export default Login;
 
 
+<<<<<<< HEAD
+=======
+
+/*import React from 'react';
+
+function Login  ()  {
+    return (
+        <div
+            style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100vh',
+                backgroundColor: 'black',
+                color: 'white'
+            }}
+        >
+            <h1>Login</h1>
+        </div>
+    );
+};
+
+export default Login;
+*/
+>>>>>>> a06d63368a04dbcd4533382cbdfdfee1073e96d0
