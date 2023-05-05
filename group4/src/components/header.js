@@ -41,7 +41,7 @@ function Header() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginLeft: 'auto', marginRight: 'auto' }}>
         <Link to="/" className="nav-link" onClick={handleClick}>Home</Link>
         <Link to="/course" className="nav-link" onClick={handleClick}>Courses</Link>
-        <Link to="/certifications" className="nav-link" onClick={handleClick}>Certifications</Link>
+        <Link to="/certifications" className="nav-link" onClick={handleClick}>Guide</Link>
          <Link to="/roadmaps" className="nav-link" onClick={handleClick}>Roadmaps</Link> 
         <Link to="/videos" className="nav-link" onClick={handleClick}>Videos</Link>
       </div>

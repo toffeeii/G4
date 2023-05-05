@@ -5,7 +5,9 @@
     align-items: center;
     height: 100vh;
   }
-  
+  .certification {
+    font-size: 200;
+  }
  
   .back-link {
     display: flex;
@@ -63,3 +65,11 @@
 /*background-color: gray;
   transition: all 0.2s ease-in-out;
   transform: translateY(-50%) scale(1.1);*/
+  .center{
+    text-align: right;
+    display: block;
+    justify-content: right;
+    align-items: right;
+    margin: auto;
+    width: 100%;
+  }
