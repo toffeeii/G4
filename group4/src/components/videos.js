@@ -16,6 +16,7 @@ function videos() {
       style={{
         backgroundColor: "black",
         color: "white",
+        height: '130vh'
       }}
     >
       <button className="back-button" onClick={handleBack}>

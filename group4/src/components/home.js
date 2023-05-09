@@ -17,7 +17,7 @@ function Home() {
     // alt='elearning' width="1119" height="420"/></div>
     <div
       style={{
-        paddingTop: "150px",
+        paddingTop: "145px",
 
         height: height,
         backgroundColor: "black",
@@ -29,7 +29,7 @@ function Home() {
 <div id="carouselExampleInterval" class="container carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://sellcoursesonline.com/wp-content/uploads/2022/05/types-of-online-courses.png" className="d-block w-100" alt="..."/>
+      <img src="https://sellcoursesonline.com/wp-content/uploads/2022/05/types-of-online-courses.png" height="550px" className="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
     <div class="">
